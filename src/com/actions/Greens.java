@@ -11,9 +11,11 @@ public class Greens {
 	
 	    WebDriver driver = new ChromeDriver();
 	    
-	    driver.manage().window().maximize();
+	    
 	    
 	    driver.get("http://www.greenstechnologys.com/");
+	    
+	   
 	    
 	    driver.close();
 	    
