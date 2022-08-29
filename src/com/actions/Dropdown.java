@@ -20,10 +20,10 @@ public class Dropdown {
 		driver.get("https://adactinhotelapp.com/");
 
 		WebElement username = driver.findElement(By.id("username"));
-		username.sendKeys("Greens8767");
+		username.sendKeys("anandhraja18");
 
 		WebElement password = driver.findElement(By.id("password"));
-		password.sendKeys("QN8V3A");
+		password.sendKeys("RAP@TER18");
 
 		WebElement btnlogin = driver.findElement(By.xpath("//input[@class=\"login_button\"]"));
 		btnlogin.click();
